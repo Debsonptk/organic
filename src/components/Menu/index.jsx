@@ -8,13 +8,13 @@ import MenuMobile from '../MenuMobile';
 const Menu = () => (
     <>
         <div className="container">
-            <div className="row container">
+            <div className="row">
                 <nav className="col d-flex pt-2">
                     <div className='d-flex w-100 justify-content-between'>
                         <img src={logo} className='img-fluid me-2' alt='logo' />
                         <MenuMobile />
                     </div>
-                    <div className='align-items-center d-none d-sm-flex'>
+                    <div className='align-items-center d-flex px-1 d-none d-sm-flex col'>
                         <a className="nav-link me-5 active text-secondary"
                             aria-current="page"
                             href="/">
@@ -42,7 +42,7 @@ const Menu = () => (
                         </a>
                     </div>
                     <div className='px-5 align-items-center d-none d-sm-flex'>
-                        <a className="nav-link me-3 active text-secondary d-none d-lg-block"
+                        <a className="nav-link me-3 active text-secondary d-none d-md-block"
                             aria-current="page"
                             href="/cart">
                             <BsCart3 size={20} />
