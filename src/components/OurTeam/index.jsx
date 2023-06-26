@@ -4,9 +4,9 @@ import farmer1 from "../../assets/farmer1.jpeg";
 import farmer2 from "../../assets/farmer2.jpeg";
 
 const OurTeam = () => (
-    <>
+    <div className="container">
         <h1 className="text-center pt-5">Our Team</h1>
-        <div className="row">
+        <div className="row row-cols-1 row-cols-lg-3">
             <div className="col d-flex justify-content-center">
                 <RoundedImage
                     image={leader}
@@ -32,7 +32,7 @@ const OurTeam = () => (
                 />
             </div>
         </div>
-    </>
+    </div>
 );
 
 export default OurTeam;

@@ -6,7 +6,7 @@ import { BannerAboutUs, Title } from "./style";
 const MainAbout = () => (
     <>
         <BannerAboutUs>
-            <Title className="text-white text-center">About Us</Title>
+        <Title className="text-white text-center">About Us</Title>
         </BannerAboutUs>
         <SectionAboutUs />
         <BannerMushroom />
