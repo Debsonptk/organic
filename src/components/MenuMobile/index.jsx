@@ -9,13 +9,11 @@ const MenuMobile = () => {
     const [isMenuOpened, setIsMenuOpened] = useState(false);
     return (
         <>
-            <MenuOverlay isMenuOpened={isMenuOpened} onClick={() => setIsMenuOpened(false)} className="d-flex d-lg-none position-fixed h-100 w-100" />
-            <div className="d-flex align-items-center justify-content-between w-100 d-block d-lg-none">
-                <div className="d-flex align-items-end  mx-3">
-                    <GiHamburgerMenu type="button" onClick={() => setIsMenuOpened(true)} size={25}  />
-                </div>
+            <MenuOverlay isMenuOpened={isMenuOpened} onClick={() => setIsMenuOpened(false)} className="position-fixed h-100 w-100" />
+            <div className="d-flex align-items-center d-sm-none">
+                <GiHamburgerMenu type="button" onClick={() => setIsMenuOpened(true)} size={25}  />
             </div>
-            <MenuMb isMenuOpened={isMenuOpened} className="d-flex flex-column d-lg-none position-fixed bg-white">
+            <MenuMb isMenuOpened={isMenuOpened} className="d-flex flex-column d-lg-none position-fixed bg-white h-100">
                 <NavSection className=" w-100">
                     <div className=" d-flex flex-column justify-content-center mb-3">
                             <AiOutlineClose type="button" onClick={() => setIsMenuOpened(false)} className="align-self-end"/>
