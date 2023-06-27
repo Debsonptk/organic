@@ -11,7 +11,7 @@ const Menu = () => (
             <div className="row">
                 <nav className="col d-flex pt-2">
                     <div className='d-flex w-100 justify-content-between'>
-                        <img src={logo} className='img-fluid me-2' alt='logo' />
+                        <img src={logo} className='img-fluid me-2 py-4' alt='logo' />
                         <MenuMobile />
                     </div>
                     <div className='align-items-center d-flex px-1 d-none d-sm-flex col'>

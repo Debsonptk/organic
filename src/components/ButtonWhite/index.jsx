@@ -1,8 +1,8 @@
 import { ColorButtonWhite } from "./style";
 
 // eslint-disable-next-line react/prop-types
-const ButtonWhite = ({name}) => (
-    <ColorButtonWhite type="button" className="btn  btn-lg rounded-pill">{name}</ColorButtonWhite>
+const ButtonWhite = ({title}) => (
+    <ColorButtonWhite type="button" className="btn  btn-lg rounded-pill">{title}</ColorButtonWhite>
 );
 
 export default ButtonWhite;

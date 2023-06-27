@@ -3,7 +3,7 @@ import { CoverBannerMushroom } from "./style";
 const BannerMushroom = () => (
     <CoverBannerMushroom >
         <div className="container">
-            <div className="row justify-content-center row-cols-1yarn row-cols-md-4">
+            <div className="row justify-content-center row-cols-1 row-cols-md-4">
                 <div className="col text-white">
                     <h1 className="text-center">154</h1>
                     <h5 className="text-center">HAPPY CLIENT</h5>
