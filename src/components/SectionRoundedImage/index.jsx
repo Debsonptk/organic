@@ -4,7 +4,8 @@ import orange from "../../assets/orange.jpeg";
 import meat from "../../assets/meat.jpeg";
 
 const SectionRoundedImage = () => (
-    <div className="container p-0 m-0 row row-cols-1 row-cols-md-3 border-bottom">
+    <div className="container">
+    <div className="p-0 m-0 row row-cols-1 row-cols-md-3 border-bottom">
         <div className="col p-0 d-flex justify-content-center">
             <RoundedImage
                 image={ vegetable }
@@ -26,6 +27,7 @@ const SectionRoundedImage = () => (
                 alt="meat"
             />
         </div>
+    </div>
     </div>
 );
 
