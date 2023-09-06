@@ -18,34 +18,34 @@ const Menu = () => (
                     <div className='align-items-center d-flex px-1 d-none d-sm-flex col'>
                         <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
-                            href="/">
+                            to="/">
                             HOME
                         </Link>
                         <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
-                            href="/shop">
+                            to="/shop">
                             SHOP
                         </Link>
                         <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
-                            href="/about">
+                            to="/about">
                             ABOUT
                         </Link>
                         <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
-                            href="/blog">
+                            to="/blog">
                             BLOG
                         </Link>
                         <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
-                            href="/contact">
+                            to="/contact">
                             CONTACT
                         </Link>
                     </div>
                     <div className='px-5 align-items-center d-none d-sm-flex'>
                         <Link className="nav-link me-3 active text-secondary d-none d-md-block"
                             aria-current="page"
-                            href="/cart">
+                            to="/cart">
                             <BsCart3 size={20} />
                         </Link>
                     </div>
