@@ -2,6 +2,7 @@ import logo from '../../assets/logo.png';
 
 import { BsCart3 } from 'react-icons/bs';
 import MenuMobile from '../MenuMobile';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,38 +16,38 @@ const Menu = () => (
                         <MenuMobile />
                     </div>
                     <div className='align-items-center d-flex px-1 d-none d-sm-flex col'>
-                        <a className="nav-link me-5 active text-secondary"
+                        <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
                             href="/">
                             HOME
-                        </a>
-                        <a className="nav-link me-5 active text-secondary"
+                        </Link>
+                        <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
                             href="/shop">
                             SHOP
-                        </a>
-                        <a className="nav-link me-5 active text-secondary"
+                        </Link>
+                        <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
                             href="/about">
                             ABOUT
-                        </a>
-                        <a className="nav-link me-5 active text-secondary"
+                        </Link>
+                        <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
                             href="/blog">
                             BLOG
-                        </a>
-                        <a className="nav-link me-5 active text-secondary"
+                        </Link>
+                        <Link className="nav-link me-5 active text-secondary"
                             aria-current="page"
                             href="/contact">
                             CONTACT
-                        </a>
+                        </Link>
                     </div>
                     <div className='px-5 align-items-center d-none d-sm-flex'>
-                        <a className="nav-link me-3 active text-secondary d-none d-md-block"
+                        <Link className="nav-link me-3 active text-secondary d-none d-md-block"
                             aria-current="page"
                             href="/cart">
                             <BsCart3 size={20} />
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </div>
